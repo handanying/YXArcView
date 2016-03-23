@@ -15,6 +15,7 @@
 		3399B21B1C461B8100899140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3399B2191C461B8100899140 /* LaunchScreen.storyboard */; };
 		3399B2261C461B8100899140 /* YXArcViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399B2251C461B8100899140 /* YXArcViewTests.m */; };
 		3399B2311C461B8100899140 /* YXArcViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399B2301C461B8100899140 /* YXArcViewUITests.m */; };
+		3399B2401C461BD600899140 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399B23E1C461BD600899140 /* ArcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3399B22C1C461B8100899140 /* YXArcViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXArcViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3399B2301C461B8100899140 /* YXArcViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXArcViewUITests.m; sourceTree = "<group>"; };
 		3399B2321C461B8100899140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3399B23E1C461BD600899140 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		3399B23F1C461BD600899140 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3399B20F1C461B8100899140 /* AppDelegate.m */,
 				3399B2111C461B8100899140 /* ViewController.h */,
 				3399B2121C461B8100899140 /* ViewController.m */,
+				3399B23F1C461BD600899140 /* ArcView.h */,
+				3399B23E1C461BD600899140 /* ArcView.m */,
 				3399B2141C461B8100899140 /* Main.storyboard */,
 				3399B2171C461B8100899140 /* Assets.xcassets */,
 				3399B2191C461B8100899140 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3399B2131C461B8100899140 /* ViewController.m in Sources */,
+				3399B2401C461BD600899140 /* ArcView.m in Sources */,
 				3399B2101C461B8100899140 /* AppDelegate.m in Sources */,
 				3399B20D1C461B8100899140 /* main.m in Sources */,
 			);
