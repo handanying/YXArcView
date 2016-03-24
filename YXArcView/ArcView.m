@@ -42,7 +42,9 @@
 
 
 - (instancetype)initWithFrame:(CGRect)frame{
-    if ([super initWithFrame:frame]) {
+    self = [super initWithFrame:frame];
+    // 此处有潜在的内存泄露
+    if (self) {
         self.backgroundColor = [UIColor whiteColor];
         self.startPoint = - M_PI/2; // 起始弧度
         [self setNeedsDisplay];
