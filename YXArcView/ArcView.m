@@ -43,7 +43,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
-    // 新人报到
     // 此处有潜在的内存泄露
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
